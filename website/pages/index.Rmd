@@ -1,0 +1,20 @@
+---
+title: "Single-cell multi-modal data integration benchmarking"
+output:
+  rmarkdown::html_document:
+    toc: false
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+source(here::here("R", "document_setup.R"))
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+SCMMI_benchmark (SCMMIB) is a benchmark pipeline for evaluating the usability, accuracy, robustness and scalability of single-cell multimodal integration algorithms, including 40 single-cell multi-modal integration methods involving modalities of DNA, RNA, protein and spatial multi-omics for paired integration, unpaired diagonal integration, and unpaired mosaic integration.
+
+<a data-fancybox href="figures/index/Figure1.jpg">
+  <img src="figures/index/Figure1.jpg">
+</a>
+
+<br/>

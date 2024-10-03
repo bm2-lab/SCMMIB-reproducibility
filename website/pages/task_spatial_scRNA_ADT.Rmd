@@ -1,0 +1,36 @@
+---
+title: "task spatial scRNA+ADT"
+output:
+  rmarkdown::html_document:
+    toc: false
+    number_sections: false
+params:
+  task:
+    - task_spatial_scRNA+ADT
+  accuracy_datasets:
+    - Lymph_node_spatial
+    - Lymph_node_spatial_A1
+    - Thymus_spatial
+    - Spleen_SPOTS
+---
+
+```{r setup, include=FALSE}
+source(here::here("R", "document_setup.R"))
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+# Results
+
+This page shows the performance of different methods under all **`r sub("^task_", "", params$task)`** integration tasks in terms of accuracy, robustness and sclability.
+
+## Accuracy
+
+<a data-fancybox href="figures/spatial_scRNA_ADT/spatial_RNA_ADT_metric_summary_heatmap.jpg">
+  <img src="figures/spatial_scRNA_ADT/spatial_RNA_ADT_metric_summary_heatmap.jpg">
+</a>
+
+<br/>
+
+## Usability
+
+You can view the usability scores for each method [here](usability.html).

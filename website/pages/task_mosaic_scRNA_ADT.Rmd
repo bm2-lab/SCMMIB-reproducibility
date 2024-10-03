@@ -1,0 +1,66 @@
+---
+title: "task mosaic scRNA+ADT"
+output:
+  rmarkdown::html_document:
+    toc: false
+    number_sections: false
+params:
+  task:
+    - task_mosaic_scRNA_ADT
+  accuracy_datasets:
+    - BMMC_CITE-seq_s2d1_s3d6
+  robustness_datasets:
+    - BMMC_CITE-seq_s2d1_s3d6
+    - BMMC_CITE-seq_c5k_cnk	
+  scalability_datasets:
+    - mosaic_rna_adt_scal_line.jpg
+---
+
+```{r setup, include=FALSE}
+source(here::here("R", "document_setup.R"))
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+# Results
+
+This page shows the performance of different methods under all **mosaic scRNA + ADT** integration tasks in terms of accuracy, robustness and sclability.
+
+## Accuracy
+
+```{r accuracy_datasets}
+datasets_name_modified <- gsub("_", " ", params$accuracy_datasets)
+datasets_list <- paste(
+    glue::glue(
+        "* [{datasets_name_modified}]({params$task}_accuracy_dataset_{params$accuracy_datasets}.html)"
+    ),
+    collapse = "\n"
+)
+```
+
+`r datasets_list`
+
+## Robustness
+
+```{r robustness_datasets}
+datasets_name_modified <- gsub("_", " ", params$robustness_datasets)
+datasets_list <- paste(
+    glue::glue(
+        "* [{datasets_name_modified}]({params$task}_robustness_dataset_{params$robustness_datasets}.html)"
+    ),
+    collapse = "\n"
+)
+```
+
+`r datasets_list`
+
+## Scalability
+
+<a data-fancybox href="figures/scalability_plot/mosaic_rna_adt_scal_line.jpg">
+  <img src="figures/scalability_plot/mosaic_rna_adt_scal_line.jpg">
+</a>
+
+<br/>
+
+## Usability
+
+You can view the usability scores for each method [here](usability.html).

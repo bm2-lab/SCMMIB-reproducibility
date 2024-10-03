@@ -1,0 +1,77 @@
+---
+params:
+  task: scRNA+ADT
+  dataset: BMMC_CITE-seq_p10
+  fig_dir: false
+title: "`r paste(params$task, params$dataset)`"
+---
+
+```{r setup, include=FALSE}
+source(here::here("R", "document_setup.R"))
+knitr::opts_chunk$set(fig.path = paste0(params$fig_dir, "/"))
+```
+
+```{r libraries}
+library("reactable")
+library("htmltools")
+```
+
+```{r functions}
+source(here("R", "plotting.R"))
+source(here("R", "tables.R"))
+source(here("R", "render.R"))
+```
+
+```{r load}
+dataset_info <- read.csv(here("data", "datasets_summary.csv"), check.names = FALSE) %>%
+    filter(Integration == params$task) %>%
+    filter(Index == params$dataset)
+
+metrics_info <- read.csv(here("data", "metrics_summary.csv"), check.names = FALSE)
+```
+
+This page displays metrics for the following dataset: 
+
+```{r metadata}
+dataset_info[, c("Name", "Description", "Type", "Cells", "Batches", "Labels")] %>%
+    pivot_longer(cols = everything(),
+                 names_to = "Category",
+                 values_to = "Value") %>%
+    gt() %>%
+    cols_label(Category = "", Value = "") %>%
+    fmt_markdown("Category") %>%
+    cols_align("left")
+```
+
+
+# Batch effect removal {.tabset .tabset-dropdown .tabset-fade}
+
+```{r metrics-batch, results = "hide"}
+metrics_path = "Rob_paired_path"
+metrics <- read.csv(here("data", dataset_info[, metrics_path]), check.names = FALSE)
+
+metrics_type = "batch effect removal"
+metrics_name <- intersect(colnames(metrics), metrics_info[metrics_info$Group == metrics_type, "Metrics"])
+
+full_src <- make_citeseq_method_robustness_md(metrics, metrics_name)
+out <- knitr::knit_child(text = unlist(full_src), options = list(cache = FALSE))
+```
+
+
+`r out`
+
+
+# Biological conservation {.tabset .tabset-dropdown .tabset-fade}
+```{r metrics-bio, results = "hide"}
+metrics_path = "Rob_paired_path"
+metrics <- read.csv(here("data", dataset_info[, metrics_path]), check.names = FALSE)
+
+metrics_type = "biological conservation"
+metrics_name <- intersect(colnames(metrics), metrics_info[metrics_info$Group == metrics_type, "Metrics"])
+
+full_src <- make_citeseq_method_robustness_md(metrics, metrics_name)
+out <- knitr::knit_child(text = unlist(full_src), options = list(cache = FALSE))
+```
+
+`r out`
+

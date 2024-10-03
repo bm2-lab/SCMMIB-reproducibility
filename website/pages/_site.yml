@@ -1,0 +1,14 @@
+name: scIB-results
+output_dir: ../../docs
+output:
+  rmarkdown::html_document:
+    theme: yeti
+    highlight: textmate
+    number_sections: true
+    toc: true
+    toc_float: true
+    css: style.css
+    self_contained: false
+    lib_dir: ../../docs/site_libs
+    includes:
+      in_header: "_mixpanel.html"

@@ -1,0 +1,153 @@
+---
+params:
+  task: mosaic_scRNA+scATAC
+  dataset: SHARE-seq_skin_c5k_c5k
+  fig_dir: false
+title: "`r paste(params$task, params$dataset)`"
+---
+
+```{r setup, include=FALSE}
+source(here::here("R", "document_setup.R"))
+knitr::opts_chunk$set(fig.path = paste0(params$fig_dir, "/"))
+```
+
+```{r libraries}
+library("reactable")
+library("htmltools")
+```
+
+```{r functions}
+source(here("R", "plotting.R"))
+source(here("R", "tables.R"))
+source(here("R", "render.R"))
+```
+
+```{r load}
+dataset_info <- read.csv(here("data", "datasets_summary.csv"), check.names = FALSE) %>%
+    filter(Integration == params$task) %>%
+    filter(Index == params$dataset)
+
+metrics_info <- read.csv(here("data", "metrics_summary.csv"), check.names = FALSE)
+```
+
+This page displays metrics for the following dataset: 
+
+```{r metadata}
+dataset_info[, c("Name", "Description", "Type", "Cells", "Batches", "Labels")] %>%
+    pivot_longer(cols = everything(),
+                 names_to = "Category",
+                 values_to = "Value") %>%
+    gt() %>%
+    cols_label(Category = "", Value = "") %>%
+    fmt_markdown("Category") %>%
+    cols_align("left")
+```
+
+Batch effect removal {.tabset}
+--------------------
+
+```{r metrics-batch, results = "hide"}
+metrics_path = "Acc_pired_path"
+metrics <- read.csv(here("data", dataset_info[, metrics_path]), check.names = FALSE)
+
+## prepare palette
+library(ggsci)
+methods_pallette <- pal_d3(palette = "category20", alpha = 1)(length(unique(metrics$method)))
+# library(scales)
+# show_col(methods_pallette)
+names(methods_pallette) <- unique(metrics$method)
+
+metrics_type = "batch effect removal"
+metrics_name <- intersect(colnames(metrics), metrics_info[metrics_info$Group == metrics_type, "Metrics"])
+
+src_list <- lapply(metrics_name, function(score) {
+    src <- c(
+        "### <<score>> {.unnumbered}",
+        "```{r metrics-batch-<<score>>}",
+        "metric_method_barplot(metrics, '<<score>>', methods_pallette)",
+        "```",
+        ""
+    )
+    knitr::knit_expand(text = src, delim = c("<<", ">>"))
+})
+out <- knitr::knit_child(text = unlist(src_list), options = list(cache = FALSE))
+```
+
+`r out`
+
+Biological conservation {.tabset}
+-----------------------
+
+```{r metrics-bio, results = "hide"}
+metrics_path = "Acc_pired_path"
+metrics <- read.csv(here("data", dataset_info[, metrics_path]), check.names = FALSE)
+
+metrics_type = "biological conservation"
+metrics_name <- intersect(colnames(metrics), metrics_info[metrics_info$Group == metrics_type, "Metrics"])
+
+src_list <- lapply(metrics_name, function(score) {
+    src <- c(
+        "### <<score>> {.unnumbered}",
+        "```{r metrics-batch-<<score>>}",
+        "metric_method_barplot(metrics, '<<score>>', methods_pallette)",
+        "```",
+        ""
+    )
+    knitr::knit_expand(text = src, delim = c("<<", ">>"))
+})
+out <- knitr::knit_child(text = unlist(src_list), options = list(cache = FALSE))
+```
+
+`r out`
+
+Cell alignment accuracy {.tabset}
+-------------------
+
+```{r metrics-align, results = "hide"}
+metrics_path = "Acc_unpired_path"
+metrics <- read.csv(here("data", dataset_info[, metrics_path]), check.names = FALSE)
+
+metrics_type = "cell alignment accuracy"
+metrics_name <- intersect(colnames(metrics), metrics_info[metrics_info$Group == metrics_type, "Metrics"])
+
+src_list <- lapply(metrics_name, function(score) {
+    src <- c(
+        "### <<score>> {.unnumbered}",
+        "```{r metrics-batch-<<score>>}",
+        "metric_method_barplot(metrics, '<<score>>', methods_pallette)",
+        "```",
+        ""
+    )
+    knitr::knit_expand(text = src, delim = c("<<", ">>"))
+})
+out <- knitr::knit_child(text = unlist(src_list), options = list(cache = FALSE))
+```
+
+`r out`
+
+
+Imputation accuracy {.tabset}
+-------------------
+
+```{r metrics-imp, results = "hide"}
+metrics_path = "Imp_path"
+metrics <- read.csv(here("data", dataset_info[, metrics_path]), check.names = FALSE)
+
+metrics_type = "imputation accuracy"
+metrics_name <- intersect(colnames(metrics), metrics_info[metrics_info$Group == metrics_type, "Metrics"])
+
+src_list <- lapply(metrics_name, function(score) {
+    src <- c(
+        "### <<score>> {.unnumbered}",
+        "```{r metrics-batch-<<score>>}",
+        "metric_method_barplot(metrics, '<<score>>', methods_pallette)",
+        "```",
+        ""
+    )
+    knitr::knit_expand(text = src, delim = c("<<", ">>"))
+})
+out <- knitr::knit_child(text = unlist(src_list), options = list(cache = FALSE))
+```
+
+`r out`
+

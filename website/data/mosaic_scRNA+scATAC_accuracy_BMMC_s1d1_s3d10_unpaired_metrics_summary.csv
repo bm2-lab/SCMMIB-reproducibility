@@ -1,0 +1,36 @@
+method,Output,nCell,FOSCTTM,Cell match,Cell type match,Cell type level 1 match
+cobolt,Embedding,6781,0.05,0.007,0.735,0.848
+cobolt,Embedding,6781,0.05,0.009,0.744,0.859
+cobolt,Embedding,6781,0.062,0.007,0.656,0.809
+cobolt,Embedding,6781,0.057,0.007,0.698,0.843
+cobolt,Embedding,6781,0.049,0.008,0.738,0.851
+MIDAS,Embedding,6781,0.095,0.013,0.798,0.875
+MIDAS,Embedding,6781,0.084,0.016,0.799,0.875
+MIDAS,Embedding,6781,0.109,0.014,0.796,0.871
+MIDAS,Embedding,6781,0.094,0.014,0.802,0.876
+MIDAS,Embedding,6781,0.088,0.016,0.802,0.877
+Multigrate,Embedding,6781,0.14,0.002,0.462,0.636
+Multigrate,Embedding,6781,0.14,0.002,0.462,0.636
+Multigrate,Embedding,6781,0.14,0.002,0.462,0.636
+Multigrate,Embedding,6781,0.14,0.002,0.462,0.636
+Multigrate,Embedding,6781,0.14,0.002,0.462,0.636
+MultiVI,Embedding,6781,0.038,0.011,0.829,0.894
+MultiVI,Embedding,6781,0.038,0.011,0.829,0.894
+MultiVI,Embedding,6781,0.038,0.011,0.829,0.894
+MultiVI,Embedding,6781,0.038,0.011,0.829,0.894
+MultiVI,Embedding,6781,0.038,0.011,0.829,0.894
+scMoMaT,Embedding,6781,0.271,0.003,0.449,0.648
+scMoMaT,Embedding,6781,0.271,0.003,0.449,0.648
+scMoMaT,Embedding,6781,0.271,0.003,0.449,0.648
+scMoMaT,Embedding,6781,0.271,0.003,0.449,0.648
+scMoMaT,Embedding,6781,0.271,0.003,0.449,0.648
+StabMap,Embedding,13562,0.318,0.001,0.325,0.436
+StabMap,Embedding,13562,0.318,0.001,0.325,0.436
+StabMap,Embedding,13562,0.318,0.001,0.325,0.436
+StabMap,Embedding,13562,0.318,0.001,0.325,0.436
+StabMap,Embedding,13562,0.318,0.001,0.325,0.436
+Seurat v5 bridge,Embedding,13562,0.037,0.012,0.842,0.892
+Seurat v5 bridge,Embedding,13562,0.037,0.012,0.842,0.892
+Seurat v5 bridge,Embedding,13562,0.037,0.012,0.842,0.892
+Seurat v5 bridge,Embedding,13562,0.037,0.012,0.842,0.892
+Seurat v5 bridge,Embedding,13562,0.037,0.012,0.842,0.892

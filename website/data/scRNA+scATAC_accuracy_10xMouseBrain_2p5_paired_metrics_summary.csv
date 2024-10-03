@@ -1,0 +1,51 @@
+algor,Output,nCell,Batch ASW batch,graph iLISI
+cobolt,Embedding,12138,0.954,0.953
+MOFA+,Embedding,12138,0.94,0.953
+Multigrate,Embedding,12138,0.94,0.951
+MultiVI,Embedding,12138,0.95,0.954
+scAI,Embedding,12138,0.95,0.949
+scDEC,Embedding,12138,0.984,0.951
+scMDC,Embedding,12138,0.939,0.957
+scMVP,Embedding,12138,0.963,0.957
+Seurat v4 WNN,Graph,12138,NA,0.958
+uniPort,Embedding,12138,0.96,0.955
+cobolt,Embedding,12138,0.957,0.954
+Multigrate,Embedding,12138,0.94,0.951
+MultiVI,Embedding,12138,0.95,0.954
+scAI,Embedding,12138,0.95,0.949
+scDEC,Embedding,12138,0.982,0.948
+scMDC,Embedding,12138,0.941,0.961
+scMVP,Embedding,12138,0.973,0.953
+Seurat v4 WNN,Graph,12138,NA,0.958
+uniPort,Embedding,12138,0.96,0.955
+cobolt,Embedding,12138,0.955,0.953
+Multigrate,Embedding,12138,0.94,0.951
+MultiVI,Embedding,12138,0.95,0.954
+scAI,Embedding,12138,0.95,0.949
+scDEC,Embedding,12138,0.983,0.951
+scMDC,Embedding,12138,0.951,0.96
+scMVP,Embedding,12138,0.968,0.958
+Seurat v4 WNN,Graph,12138,NA,0.958
+uniPort,Embedding,12138,0.96,0.955
+cobolt,Embedding,12138,0.956,0.955
+Multigrate,Embedding,12138,0.94,0.951
+MultiVI,Embedding,12138,0.95,0.954
+scAI,Embedding,12138,0.95,0.949
+scDEC,Embedding,12138,0.984,0.95
+scMDC,Embedding,12138,0.948,0.955
+scMVP,Embedding,12138,0.973,0.954
+Seurat v4 WNN,Graph,12138,NA,0.958
+uniPort,Embedding,12138,0.96,0.955
+cobolt,Embedding,12138,0.956,0.95
+Multigrate,Embedding,12138,0.94,0.951
+MultiVI,Embedding,12138,0.95,0.954
+scAI,Embedding,12138,0.95,0.949
+scDEC,Embedding,12138,0.983,0.953
+scMDC,Embedding,12138,0.953,0.958
+scMVP,Embedding,12138,0.971,0.952
+Seurat v4 WNN,Graph,12138,NA,0.958
+uniPort,Embedding,12138,0.96,0.955
+MOFA+,Embedding,12138,0.94,0.953
+MOFA+,Embedding,12138,0.94,0.953
+MOFA+,Embedding,12138,0.94,0.953
+MOFA+,Embedding,12138,0.94,0.953

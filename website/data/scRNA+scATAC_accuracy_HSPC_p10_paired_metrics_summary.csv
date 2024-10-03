@@ -1,0 +1,61 @@
+algor,Output,nCell,Batch ASW batch,graph iLISI
+cobolt,Embedding,10587,0.912,0.648
+DCCA,Embedding,10587,0.909,0.645
+MOFA+,Embedding,10587,0.915,0.646
+Multigrate,Embedding,10587,0.911,0.646
+MultiVI,Embedding,10587,0.888,0.653
+scAI,Embedding,10587,0.931,0.641
+scDEC,Embedding,10587,0.947,0.632
+scMDC,Embedding,10587,0.924,0.634
+scMVAE,Embedding,10587,0.935,0.632
+scMVP,Embedding,10587,0.938,0.637
+Seurat v4 WNN,Graph,10587,NA,0.687
+uniPort,Embedding,10587,0.903,0.643
+cobolt,Embedding,10587,0.902,0.644
+DCCA,Embedding,10587,0.914,0.641
+MOFA+,Embedding,10587,0.915,0.646
+Multigrate,Embedding,10587,0.911,0.646
+MultiVI,Embedding,10587,0.888,0.653
+scAI,Embedding,10587,0.931,0.641
+scDEC,Embedding,10587,0.951,0.633
+scMDC,Embedding,10587,0.928,0.637
+scMVAE,Embedding,10587,0.945,0.637
+scMVP,Embedding,10587,0.936,0.639
+Seurat v4 WNN,Graph,10587,NA,0.687
+uniPort,Embedding,10587,0.903,0.643
+cobolt,Embedding,10587,0.922,0.649
+DCCA,Embedding,10587,0.911,0.649
+MOFA+,Embedding,10587,0.915,0.646
+Multigrate,Embedding,10587,0.911,0.646
+MultiVI,Embedding,10587,0.888,0.653
+scAI,Embedding,10587,0.931,0.641
+scDEC,Embedding,10587,0.957,0.636
+scMDC,Embedding,10587,0.924,0.634
+scMVAE,Embedding,10587,0.939,0.639
+scMVP,Embedding,10587,0.935,0.637
+Seurat v4 WNN,Graph,10587,NA,0.687
+uniPort,Embedding,10587,0.903,0.643
+cobolt,Embedding,10587,0.903,0.647
+DCCA,Embedding,10587,0.911,0.643
+MOFA+,Embedding,10587,0.915,0.646
+Multigrate,Embedding,10587,0.911,0.646
+MultiVI,Embedding,10587,0.888,0.653
+scAI,Embedding,10587,0.931,0.641
+scDEC,Embedding,10587,0.947,0.637
+scMDC,Embedding,10587,0.913,0.642
+scMVP,Embedding,10587,0.945,0.633
+Seurat v4 WNN,Graph,10587,NA,0.687
+uniPort,Embedding,10587,0.903,0.643
+cobolt,Embedding,10587,0.905,0.652
+DCCA,Embedding,10587,0.911,0.644
+MOFA+,Embedding,10587,0.915,0.646
+Multigrate,Embedding,10587,0.911,0.646
+MultiVI,Embedding,10587,0.888,0.653
+scAI,Embedding,10587,0.931,0.641
+scDEC,Embedding,10587,0.96,0.634
+scMDC,Embedding,10587,0.913,0.636
+scMVP,Embedding,10587,0.937,0.64
+Seurat v4 WNN,Graph,10587,NA,0.687
+uniPort,Embedding,10587,0.903,0.643
+scMVAE,Embedding,10587,0.933,0.638
+scMVAE,Embedding,10587,0.935,0.635

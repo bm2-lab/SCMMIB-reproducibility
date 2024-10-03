@@ -1,0 +1,66 @@
+method,Output,nCell,FOSCTTM,Cell match
+bindSC,Embedding,10587,0.35,0.001
+GLUE,Embedding,10587,0.143,0.007
+LIGER iNMF,Embedding,10587,0.46,0.001
+LIGER online iNMF,Embedding,10587,0.478,0.001
+LIGER UINMF,Embedding,10587,0.468,0.001
+MaxFuse,Embedding,10587,0.343,0.001
+MultiMAP,Embedding,10587,0.36,0.001
+Pamona,Embedding,10587,0.506,0
+SCALEX,Embedding,10587,0.354,0
+Seurat v3 CCA,Embedding,10587,0.331,0.002
+Seurat v4 RPCA,Embedding,10587,0.311,0.003
+SIMBA,Embedding,10587,0.177,0.001
+uniPort,Embedding,10587,0.303,0.003
+GLUE,Embedding,10587,0.138,0.007
+MaxFuse,Embedding,10587,0.354,0.001
+MultiMAP,Embedding,10587,0.36,0.001
+SCALEX,Embedding,10587,0.354,0
+Seurat v3 CCA,Embedding,10587,0.331,0.002
+Seurat v4 RPCA,Embedding,10587,0.311,0.003
+SIMBA,Embedding,10587,0.179,0.001
+uniPort,Embedding,10587,0.303,0.003
+GLUE,Embedding,10587,0.129,0.009
+Pamona,Embedding,10587,0.506,0
+Seurat v3 CCA,Embedding,10587,0.331,0.002
+Seurat v4 RPCA,Embedding,10587,0.311,0.003
+uniPort,Embedding,10587,0.303,0.003
+GLUE,Embedding,10587,0.141,0.007
+Pamona,Embedding,10587,0.506,0
+Seurat v3 CCA,Embedding,10587,0.331,0.002
+Seurat v4 RPCA,Embedding,10587,0.311,0.003
+uniPort,Embedding,10587,0.303,0.003
+GLUE,Embedding,10587,0.14,0.008
+Pamona,Embedding,10587,0.506,0
+Seurat v3 CCA,Embedding,10587,0.331,0.002
+Seurat v4 RPCA,Embedding,10587,0.311,0.003
+uniPort,Embedding,10587,0.303,0.003
+MaxFuse,Embedding,10587,0.33,0.001
+MaxFuse,Embedding,10587,0.335,0.001
+MaxFuse,Embedding,10587,0.345,0.001
+LIGER iNMF,Embedding,10587,0.46,0.001
+LIGER online iNMF,Embedding,10587,0.478,0.001
+LIGER UINMF,Embedding,10587,0.468,0.001
+LIGER iNMF,Embedding,10587,0.46,0.001
+LIGER online iNMF,Embedding,10587,0.478,0.001
+LIGER UINMF,Embedding,10587,0.468,0.001
+LIGER iNMF,Embedding,10587,0.46,0.001
+LIGER online iNMF,Embedding,10587,0.478,0.001
+LIGER UINMF,Embedding,10587,0.468,0.001
+LIGER iNMF,Embedding,10587,0.46,0.001
+LIGER online iNMF,Embedding,10587,0.478,0.001
+LIGER UINMF,Embedding,10587,0.468,0.001
+bindSC,Embedding,10587,0.35,0.001
+bindSC,Embedding,10587,0.35,0.001
+bindSC,Embedding,10587,0.35,0.001
+bindSC,Embedding,10587,0.35,0.001
+MultiMAP,Embedding,10587,0.36,0.001
+MultiMAP,Embedding,10587,0.36,0.001
+MultiMAP,Embedding,10587,0.36,0.001
+SCALEX,Embedding,10587,0.354,0
+SCALEX,Embedding,10587,0.354,0
+SCALEX,Embedding,10587,0.354,0
+SIMBA,Embedding,10587,0.176,0.001
+SIMBA,Embedding,10587,0.181,0.001
+SIMBA,Embedding,10587,0.179,0.001
+Pamona,Embedding,10587,0.506,0

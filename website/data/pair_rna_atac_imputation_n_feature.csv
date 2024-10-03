@@ -1,0 +1,5 @@
+method,rna_n_features,atac_n_features
+DCCA,3000,33449
+MultiVI,13171,112917
+scMVAE,13431,NA
+scMVP,3000,30000

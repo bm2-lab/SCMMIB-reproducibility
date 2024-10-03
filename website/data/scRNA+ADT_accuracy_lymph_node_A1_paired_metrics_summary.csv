@@ -1,0 +1,51 @@
+algor,Output,nCell,ARI,AMI,graph cLISI
+bindSC,Embedding,3484,0.234,0.355,0.858
+CiteFuse,Graph,3484,0,0,0.924
+MaxFuse,Embedding,3484,0.153,0.265,0.832
+MOFA+,Embedding,3484,0.27,0.378,0.881
+Multigrate,Embedding,3484,0.162,0.355,0.894
+SCALEX,Embedding,3484,0.148,0.286,0.878
+sciPENN,Embedding,3484,0.154,0.311,0.893
+scMDC,Embedding,3484,0.127,0.238,0.851
+Seurat v4 WNN,Graph,3484,0.19,0.327,0.893
+totalVI,Embedding,3484,0.24,0.38,0.897
+bindSC,Embedding,3484,0.234,0.355,0.858
+CiteFuse,Graph,3484,0,0,0.924
+MOFA+,Embedding,3484,0.27,0.378,0.881
+Multigrate,Embedding,3484,0.162,0.355,0.894
+SCALEX,Embedding,3484,0.148,0.286,0.878
+sciPENN,Embedding,3484,0.152,0.313,0.891
+scMDC,Embedding,3484,0.149,0.288,0.863
+totalVI,Embedding,3484,0.249,0.369,0.899
+bindSC,Embedding,3484,0.234,0.355,0.858
+CiteFuse,Graph,3484,0,0,0.924
+MOFA+,Embedding,3484,0.27,0.378,0.881
+Multigrate,Embedding,3484,0.162,0.355,0.894
+SCALEX,Embedding,3484,0.148,0.286,0.878
+sciPENN,Embedding,3484,0.167,0.322,0.888
+scMDC,Embedding,3484,0.156,0.27,0.848
+totalVI,Embedding,3484,0.217,0.346,0.893
+bindSC,Embedding,3484,0.234,0.355,0.858
+CiteFuse,Graph,3484,0,0,0.924
+MOFA+,Embedding,3484,0.27,0.378,0.881
+Multigrate,Embedding,3484,0.162,0.355,0.894
+SCALEX,Embedding,3484,0.148,0.286,0.878
+sciPENN,Embedding,3484,0.149,0.302,0.888
+scMDC,Embedding,3484,0.145,0.274,0.862
+totalVI,Embedding,3484,0.113,0.258,0.884
+bindSC,Embedding,3484,0.234,0.355,0.858
+CiteFuse,Graph,3484,0,0,0.924
+MOFA+,Embedding,3484,0.27,0.378,0.881
+Multigrate,Embedding,3484,0.162,0.355,0.894
+sciPENN,Embedding,3484,0.146,0.303,0.89
+scMDC,Embedding,3484,0.126,0.256,0.848
+totalVI,Embedding,3484,0.238,0.378,0.892
+SCALEX,Embedding,3484,0.148,0.286,0.878
+MaxFuse,Embedding,3484,0.131,0.232,0.83
+MaxFuse,Embedding,3484,0.119,0.243,0.831
+MaxFuse,Embedding,3484,0.126,0.245,0.827
+MaxFuse,Embedding,3484,0.126,0.235,0.837
+Seurat v4 WNN,Graph,3484,0.19,0.327,0.893
+Seurat v4 WNN,Graph,3484,0.19,0.327,0.893
+Seurat v4 WNN,Graph,3484,0.19,0.327,0.893
+Seurat v4 WNN,Graph,3484,0.19,0.327,0.893

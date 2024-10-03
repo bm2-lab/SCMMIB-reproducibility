@@ -1,0 +1,31 @@
+method,Output,nCell,FOSCTTM,Cell match,Cell type match
+cobolt,Embedding,5000,0.04,0.018,0.593
+cobolt,Embedding,5000,0.038,0.021,0.591
+cobolt,Embedding,5000,0.041,0.016,0.588
+cobolt,Embedding,5000,0.036,0.021,0.591
+cobolt,Embedding,5000,0.038,0.02,0.605
+Multigrate,Embedding,5000,0.176,0.002,0.373
+Multigrate,Embedding,5000,0.176,0.002,0.373
+Multigrate,Embedding,5000,0.176,0.002,0.373
+Multigrate,Embedding,5000,0.176,0.002,0.373
+Multigrate,Embedding,5000,0.176,0.002,0.373
+MultiVI,Embedding,5000,0.059,0.017,0.594
+MultiVI,Embedding,5000,0.059,0.017,0.594
+MultiVI,Embedding,5000,0.059,0.017,0.594
+MultiVI,Embedding,5000,0.059,0.017,0.594
+MultiVI,Embedding,5000,0.059,0.017,0.594
+scMoMaT,Embedding,5000,0.233,0.005,0.337
+scMoMaT,Embedding,5000,0.233,0.005,0.337
+scMoMaT,Embedding,5000,0.233,0.005,0.337
+scMoMaT,Embedding,5000,0.233,0.005,0.337
+scMoMaT,Embedding,5000,0.233,0.005,0.337
+StabMap,Embedding,10000,0.447,0.001,0.124
+StabMap,Embedding,10000,0.447,0.001,0.124
+StabMap,Embedding,10000,0.447,0.001,0.124
+StabMap,Embedding,10000,0.447,0.001,0.124
+StabMap,Embedding,10000,0.447,0.001,0.124
+Seurat v5 bridge,Embedding,10000,0.056,0.025,0.678
+Seurat v5 bridge,Embedding,10000,0.056,0.025,0.678
+Seurat v5 bridge,Embedding,10000,0.056,0.025,0.678
+Seurat v5 bridge,Embedding,10000,0.056,0.025,0.678
+Seurat v5 bridge,Embedding,10000,0.056,0.025,0.678

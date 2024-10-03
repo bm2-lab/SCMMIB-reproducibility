@@ -1,0 +1,51 @@
+algor,Output,nCell,Batch ASW batch,graph iLISI
+bindSC,Embedding,6843,0.96,0.802
+CiteFuse,Graph,6843,NA,0.496
+MaxFuse,Embedding,6843,0.93,0.79
+MOFA+,Embedding,6843,0.903,0.763
+Multigrate,Embedding,6843,0.927,0.89
+sciPENN,Embedding,6843,0.915,0.766
+scMDC,Embedding,6843,0.937,0.901
+Seurat v4 WNN,Graph,6843,NA,0.69
+totalVI,Embedding,6843,0.901,0.535
+bindSC,Embedding,6843,0.96,0.802
+CiteFuse,Graph,6843,NA,0.496
+MaxFuse,Embedding,6843,0.92,0.775
+MOFA+,Embedding,6843,0.903,0.763
+Multigrate,Embedding,6843,0.927,0.89
+sciPENN,Embedding,6843,0.884,0.735
+scMDC,Embedding,6843,0.927,0.889
+Seurat v4 WNN,Graph,6843,NA,0.69
+totalVI,Embedding,6843,0.908,0.589
+bindSC,Embedding,6843,0.96,0.802
+CiteFuse,Graph,6843,NA,0.496
+MaxFuse,Embedding,6843,0.93,0.772
+MOFA+,Embedding,6843,0.903,0.763
+Multigrate,Embedding,6843,0.927,0.89
+sciPENN,Embedding,6843,0.919,0.761
+scMDC,Embedding,6843,0.929,0.894
+Seurat v4 WNN,Graph,6843,NA,0.69
+totalVI,Embedding,6843,0.914,0.59
+bindSC,Embedding,6843,0.96,0.802
+CiteFuse,Graph,6843,NA,0.496
+MaxFuse,Embedding,6843,0.913,0.803
+MOFA+,Embedding,6843,0.903,0.763
+Multigrate,Embedding,6843,0.927,0.89
+sciPENN,Embedding,6843,0.912,0.759
+scMDC,Embedding,6843,0.932,0.881
+Seurat v4 WNN,Graph,6843,NA,0.69
+totalVI,Embedding,6843,0.893,0.572
+bindSC,Embedding,6843,0.96,0.802
+CiteFuse,Graph,6843,NA,0.496
+MaxFuse,Embedding,6843,0.913,0.759
+MOFA+,Embedding,6843,0.903,0.763
+Multigrate,Embedding,6843,0.927,0.89
+SCALEX,Embedding,6843,0.887,0.524
+sciPENN,Embedding,6843,0.897,0.75
+scMDC,Embedding,6843,0.931,0.888
+Seurat v4 WNN,Graph,6843,NA,0.69
+totalVI,Embedding,6843,0.854,0.645
+SCALEX,Embedding,6843,0.887,0.524
+SCALEX,Embedding,6843,0.887,0.524
+SCALEX,Embedding,6843,0.887,0.524
+SCALEX,Embedding,6843,0.887,0.524

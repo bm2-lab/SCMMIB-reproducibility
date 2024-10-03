@@ -1,0 +1,6 @@
+method,dataset,raw scRNA for each cell type,raw scRNA for each cell,kNN smoothed scRNA for each cell type,kNN smoothed scRNA for each cell,raw scATAC for each cell type,raw scATAC for each cell,kNN smoothed scATAC for each cell type,kNN smoothed scATAC for each cell
+MIDAS,BMMC,0.8956,0.1025,0.9575,0.554,0.7431,0.0323,0.9086,0.2946
+MultiVI,BMMC,0.9317,0.1186,0.9777,0.6239,0.8858,0.0664,0.9752,0.5082
+MultiVI,SHARE,0.9203,0.0786,1,0.5729,0.8821,0.0403,0.9999,0.4407
+StabMap,BMMC,0.8783,0.1427,0.9519,0.5091,0.6343,0.0157,NA,NA
+StabMap,SHARE,0.8997,0.0883,1,0.5372,0.7294,0.0135,NA,NA

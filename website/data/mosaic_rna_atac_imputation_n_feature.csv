@@ -1,0 +1,6 @@
+method,dataset,rna_n_features,atac_n_features
+MIDAS,BMMC,13431,116490
+MultiVI,BMMC,11444,46388
+MultiVI,SHARE,7559,67313
+StabMap,BMMC,600,600
+StabMap,SHARE,600,600

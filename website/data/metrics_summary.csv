@@ -1,0 +1,46 @@
+﻿Metrics,Group,Characteristic,Input form
+batch ASW,batch effect removal,cell-cluster-dependent,Latent embedding
+Batch ASW batch,batch effect removal,cell-cluster-dependent,Latent embedding
+Batch ASW site,batch effect removal,cell-cluster-dependent,Latent embedding
+GC,batch effect removal,cell-label-dependent,KNN graph
+graph connectivity,batch effect removal,cell-label-dependent,KNN graph
+graph connectivity level 1,batch effect removal,cell-label-dependent,KNN graph
+graph iLISI,batch effect removal,local metric,KNN graph
+ARI.RNA,biological conservation,global metric,Latent embedding
+ARI.ATAC,biological conservation,global metric,Latent embedding
+ARI,biological conservation,global metric,Latent embedding
+AMI.RNA,biological conservation,global metric,Latent embedding
+AMI.ATAC,biological conservation,global metric,Latent embedding
+AMI,biological conservation,global metric,Latent embedding
+AMI level 1.RNA,biological conservation,global metric,Latent embedding
+AMI level 1.ATAC,biological conservation,global metric,Latent embedding
+AMI level 1,biological conservation,global metric,Latent embedding
+ARI level 1.RNA,biological conservation,global metric,Latent embedding
+ARI level 1.ATAC,biological conservation,global metric,Latent embedding
+ARI level 1,biological conservation,global metric,Latent embedding
+graph cLISI.RNA,biological conservation,local metric,KNN graph
+graph cLISI.ATAC,biological conservation,local metric,KNN graph
+graph cLISI,biological conservation,local metric,KNN graph
+graph cLISI level 1.RNA,biological conservation,local metric,KNN graph
+graph cLISI level 1.ATAC,biological conservation,local metric,KNN graph
+graph cLISI level 1,biological conservation,local metric,KNN graph
+isolated labels ASW.RNA,biological conservation,rare cell type,Latent embedding
+isolated labels ASW.ATAC,biological conservation,rare cell type,Latent embedding
+isolated labels ASW,biological conservation,rare cell type,Latent embedding
+isolated labels ASW level 1.RNA,biological conservation,rare cell type,Latent embedding
+isolated labels ASW level 1.ATAC,biological conservation,rare cell type,Latent embedding
+isolated labels ASW level 1,biological conservation,rare cell type,Latent embedding
+FOSCTTM,cell alignment accuracy,proportion of false match,Latent embedding
+Cell match,cell alignment accuracy,proportion of true match,Latent embedding
+Cell type match,cell alignment accuracy,proportion of true match,Latent embedding
+Cell type level 1 match,cell alignment accuracy,proportion of true match,Latent embedding
+AUPR ,imputation accuracy,accuracy of peaks’ ranking,ATAC profile
+Pearson’s r,imputation accuracy,correlation to ground truth,RNA or ADT profile
+raw scRNA correlation (cell type)  ,imputation accuracy,correlation to ground truth,RNA or ADT profile
+raw scRNA correlation (cell)    ,imputation accuracy,correlation to ground truth,RNA or ADT profile
+kNN smoothed scRNA correlation (cell type),imputation accuracy,correlation to ground truth,RNA or ADT profile
+kNN smoothed scRNA correlation (cell),imputation accuracy,correlation to ground truth,RNA or ADT profile
+raw scATAC AUROC (cell type),imputation accuracy,accuracy of peaks’ ranking,ATAC profile
+raw scATAC AUPR (cell),imputation accuracy,accuracy of peaks’ ranking,ATAC profile
+kNN smoothed scRNA AUROC (cell type),imputation accuracy,accuracy of peaks’ ranking,ATAC profile
+kNN smoothed scATAC AUPR (cell),imputation accuracy,accuracy of peaks’ ranking,ATAC profile

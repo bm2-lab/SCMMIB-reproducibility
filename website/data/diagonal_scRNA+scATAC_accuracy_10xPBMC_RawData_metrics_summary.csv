@@ -1,0 +1,66 @@
+method,Output,nCell,FOSCTTM,Cell match
+bindSC,Embedding,15021,0.161,0.001
+GLUE,Embedding,15021,0.065,0.014
+LIGER iNMF,Embedding,15021,0.169,0
+LIGER online iNMF,Embedding,15021,0.167,0.001
+LIGER UINMF,Embedding,15021,0.291,0
+MaxFuse,Embedding,15021,0.084,0.016
+MultiMAP,Embedding,15021,0.197,0.001
+Pamona,Embedding,15021,0.498,0
+SCALEX,Embedding,15021,0.175,0.002
+Seurat v3 CCA,Embedding,15021,0.096,0.005
+Seurat v4 RPCA,Embedding,15021,0.106,0.005
+SIMBA,Embedding,15021,0.101,0.003
+uniPort,Embedding,15021,0.112,0.006
+bindSC,Embedding,15021,0.161,0.001
+GLUE,Embedding,15021,0.062,0.015
+LIGER iNMF,Embedding,15021,0.169,0
+LIGER online iNMF,Embedding,15021,0.167,0.001
+LIGER UINMF,Embedding,15021,0.291,0
+MaxFuse,Embedding,15021,0.086,0.015
+MultiMAP,Embedding,15021,0.197,0.001
+Pamona,Embedding,15021,0.498,0
+SCALEX,Embedding,15021,0.175,0.002
+Seurat v3 CCA,Embedding,15021,0.096,0.005
+Seurat v4 RPCA,Embedding,15021,0.106,0.005
+SIMBA,Embedding,15021,0.103,0.003
+uniPort,Embedding,15021,0.112,0.006
+bindSC,Embedding,15021,0.161,0.001
+GLUE,Embedding,15021,0.061,0.016
+LIGER iNMF,Embedding,15021,0.169,0
+LIGER online iNMF,Embedding,15021,0.167,0.001
+LIGER UINMF,Embedding,15021,0.291,0
+MaxFuse,Embedding,15021,0.087,0.015
+MultiMAP,Embedding,15021,0.197,0.001
+Pamona,Embedding,15021,0.498,0
+SCALEX,Embedding,15021,0.175,0.002
+Seurat v3 CCA,Embedding,15021,0.096,0.005
+Seurat v4 RPCA,Embedding,15021,0.106,0.005
+SIMBA,Embedding,15021,0.1,0.004
+uniPort,Embedding,15021,0.112,0.006
+bindSC,Embedding,15021,0.161,0.001
+GLUE,Embedding,15021,0.061,0.015
+LIGER iNMF,Embedding,15021,0.169,0
+LIGER online iNMF,Embedding,15021,0.167,0.001
+LIGER UINMF,Embedding,15021,0.291,0
+MaxFuse,Embedding,15021,0.085,0.014
+MultiMAP,Embedding,15021,0.197,0.001
+Pamona,Embedding,15021,0.498,0
+SCALEX,Embedding,15021,0.175,0.002
+Seurat v3 CCA,Embedding,15021,0.096,0.005
+Seurat v4 RPCA,Embedding,15021,0.106,0.005
+SIMBA,Embedding,15021,0.103,0.003
+uniPort,Embedding,15021,0.112,0.006
+bindSC,Embedding,15021,0.161,0.001
+GLUE,Embedding,15021,0.06,0.016
+LIGER iNMF,Embedding,15021,0.169,0
+LIGER online iNMF,Embedding,15021,0.167,0.001
+LIGER UINMF,Embedding,15021,0.291,0
+MaxFuse,Embedding,15021,0.089,0.016
+MultiMAP,Embedding,15021,0.197,0.001
+Pamona,Embedding,15021,0.498,0
+SCALEX,Embedding,15021,0.175,0.002
+Seurat v3 CCA,Embedding,15021,0.096,0.005
+Seurat v4 RPCA,Embedding,15021,0.106,0.005
+SIMBA,Embedding,15021,0.101,0.003
+uniPort,Embedding,15021,0.112,0.006

@@ -1,0 +1,26 @@
+algor,Output,nCell,Batch ASW batch,graph connectivity
+MaxFuse,Embedding,647366,0.9,0.937
+MOFA+,Embedding,647366,0.824,0.899
+SCALEX,Embedding,647366,0.845,0.906
+sciPENN,Embedding,647366,0.811,0.863
+totalVI,Embedding,647366,0.898,0.92
+MaxFuse,Embedding,647366,0.903,0.937
+MOFA+,Embedding,647366,0.824,0.899
+SCALEX,Embedding,647366,0.845,0.906
+sciPENN,Embedding,647366,0.812,0.855
+totalVI,Embedding,647366,0.892,0.916
+MaxFuse,Embedding,647366,0.897,0.94
+MOFA+,Embedding,647366,0.824,0.899
+SCALEX,Embedding,647366,0.845,0.906
+sciPENN,Embedding,647366,0.814,0.857
+totalVI,Embedding,647366,0.9,0.92
+MaxFuse,Embedding,647366,0.897,0.935
+MOFA+,Embedding,647366,0.824,0.899
+SCALEX,Embedding,647366,0.845,0.906
+sciPENN,Embedding,647366,0.809,0.854
+totalVI,Embedding,647366,0.895,0.91
+MaxFuse,Embedding,647366,0.898,0.939
+MOFA+,Embedding,647366,0.824,0.899
+SCALEX,Embedding,647366,0.845,0.906
+sciPENN,Embedding,647366,0.816,0.855
+totalVI,Embedding,647366,0.896,0.914

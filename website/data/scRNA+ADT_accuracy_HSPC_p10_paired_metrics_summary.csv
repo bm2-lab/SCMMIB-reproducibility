@@ -1,0 +1,51 @@
+algor,Output,nCell,Batch ASW batch,graph iLISI
+bindSC,Embedding,7099,0.977,0.891
+CiteFuse,Graph,7099,NA,0.475
+MaxFuse,Embedding,7099,0.968,0.892
+MOFA+,Embedding,7099,0.952,0.892
+Multigrate,Embedding,7099,0.955,0.901
+SCALEX,Embedding,7099,0.962,0.891
+sciPENN,Embedding,7099,0.95,0.897
+scMDC,Embedding,7099,0.957,0.891
+Seurat v4 WNN,Graph,7099,NA,0.735
+totalVI,Embedding,7099,0.969,0.888
+bindSC,Embedding,7099,0.977,0.891
+CiteFuse,Graph,7099,NA,0.475
+MaxFuse,Embedding,7099,0.966,0.88
+MOFA+,Embedding,7099,0.952,0.892
+Multigrate,Embedding,7099,0.955,0.901
+SCALEX,Embedding,7099,0.962,0.891
+sciPENN,Embedding,7099,0.946,0.89
+scMDC,Embedding,7099,0.957,0.891
+Seurat v4 WNN,Graph,7099,NA,0.735
+totalVI,Embedding,7099,0.972,0.887
+bindSC,Embedding,7099,0.977,0.891
+CiteFuse,Graph,7099,NA,0.475
+MaxFuse,Embedding,7099,0.972,0.875
+MOFA+,Embedding,7099,0.952,0.892
+Multigrate,Embedding,7099,0.955,0.901
+SCALEX,Embedding,7099,0.962,0.891
+sciPENN,Embedding,7099,0.951,0.891
+scMDC,Embedding,7099,0.957,0.891
+Seurat v4 WNN,Graph,7099,NA,0.735
+totalVI,Embedding,7099,0.969,0.894
+bindSC,Embedding,7099,0.977,0.891
+CiteFuse,Graph,7099,NA,0.475
+MaxFuse,Embedding,7099,0.968,0.888
+MOFA+,Embedding,7099,0.952,0.892
+Multigrate,Embedding,7099,0.955,0.901
+SCALEX,Embedding,7099,0.962,0.891
+sciPENN,Embedding,7099,0.945,0.897
+scMDC,Embedding,7099,0.959,0.893
+Seurat v4 WNN,Graph,7099,NA,0.735
+totalVI,Embedding,7099,0.973,0.888
+bindSC,Embedding,7099,0.977,0.891
+CiteFuse,Graph,7099,NA,0.475
+MaxFuse,Embedding,7099,0.969,0.887
+MOFA+,Embedding,7099,0.952,0.892
+Multigrate,Embedding,7099,0.955,0.901
+SCALEX,Embedding,7099,0.962,0.891
+sciPENN,Embedding,7099,0.949,0.892
+scMDC,Embedding,7099,0.954,0.896
+Seurat v4 WNN,Graph,7099,NA,0.735
+totalVI,Embedding,7099,0.973,0.89
